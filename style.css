@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+h1{
+    color: blueviolet;
+    text-align: center;
+}
+main{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px;
+    gap:50px;
+    justify-content: center;
+}
+.skatulya{
+    background-color: gray;
+    transition: 0.3;
+}
+.skatulya:hover{
+    background-color: blue;
+}
